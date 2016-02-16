@@ -1,0 +1,6 @@
+mongodb:
+  image: mongodb
+ircanywhere:
+  build: .
+  links:
+    - mongodb
